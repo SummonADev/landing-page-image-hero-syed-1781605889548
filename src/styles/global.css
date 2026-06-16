@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #c0392b;
+  --color-brand-light: #e74c3c;
+  --color-brand-dark: #922b21;
+  --color-accent: #f39c12;
+  --color-dark: #0d0d0d;
+  --color-dark-2: #1a1a1a;
+  --color-dark-3: #222222;
+  --font-display: 'Georgia', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #f1f1f1;
+}
